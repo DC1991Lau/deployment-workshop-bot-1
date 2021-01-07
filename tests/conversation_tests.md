@@ -1,5 +1,6 @@
-#### This file contains tests to evaluate that your bot behaves as expected.
-#### If you want to learn more, please see the docs: https://rasa.com/docs/rasa/user-guide/testing-your-assistant/
+## ## This file contains tests to evaluate that your bot behaves as expected.
+
+## ## If you want to learn more, please see the docs: https://rasa.com/docs/rasa/user-guide/testing-your-assistant/
 
 ## happy path 1
 * greet: hello there!
@@ -49,3 +50,14 @@
 ## bot challenge
 * bot_challenge: are you a bot?
   - utter_iamabot
+
+## Story from conversation with e87b3c8ffd164e5fabd69f8c4be8f159 on January 7th 2021
+
+* greet: hello
+    - utter_greet
+* mood_unhappy: bad
+    - utter_cheer_up
+    - utter_did_that_help
+* affirm: yes
+    - utter_happy
+* bot_challenge: can you get me a coffe?

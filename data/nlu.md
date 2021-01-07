@@ -54,3 +54,6 @@
 - are you a human?
 - am I talking to a bot?
 - am I talking to a human?
+
+## intent:out_of_scope
+- can you get me a coffe?
